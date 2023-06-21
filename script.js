@@ -8,7 +8,7 @@ export let options = {
   ],
 };
 export default function() {
-  let res = http.get('https://www.cineru.lk/');
+  let res = http.get('https://www.baiscopelk.com/');
   check(res, { 'status was 200': r => r.status == 200 });
   sleep(1);
 }
